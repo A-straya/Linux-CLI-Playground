@@ -6,67 +6,42 @@ An interactive Linux terminal simulator built with HTML, CSS and JavaScript.
 
 <p align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
 </p>
 
----
-
-# Live Demo
-
 <p align="center">
 
-<a href="https://a-straya.github.io/Linux-CLI-Playground/">
-
-<img src="https://img.shields.io/badge/Launch-Linux_CLI_Playground-238636?style=for-the-badge&logo=githubpages&logoColor=white">
-
+<a href="https://a-straya.github.io/Linux-CLI-Playground/" target="_blank">
+<img src="https://img.shields.io/badge/Launch%20Live%20Playground-238636?style=for-the-badge&logo=githubpages&logoColor=white">
 </a>
 
 </p>
 
-<p align="center">
+---
 
-<a href="https://a-straya.github.io/Linux-CLI-Playground/">
+## About
 
-<img src="assets/demo-preview.png" width="950">
+Linux CLI Playground is a browser-based Linux terminal simulator designed to help students practice Linux commands through an interactive environment.
 
-</a>
-
-</p>
-
-<p align="center">
-
-<b>Click the preview above to open the interactive terminal.</b>
-
-</p>
+This repository currently contains the **first development prototype** of the project. It demonstrates the terminal interface and the initial command execution engine while laying the foundation for future features.
 
 ---
 
-# About
-
-Linux CLI Playground is a browser-based Linux terminal simulator created as a personal learning project.
-
-The objective is to recreate the experience of working inside a Linux terminal while progressively adding educational features for Linux students.
-
----
-
-# Current State
-
-This repository contains the **first development prototype**.
-
-The current version demonstrates:
+## Current Features
 
 - Interactive terminal interface
-- Basic command execution
-- Command parser
+- Basic command parser
+- Command validation
 - Terminal output
 - Error handling
+- Responsive design
 
 ---
 
-# Supported Commands
+## Supported Commands
 
 ```text
 help
@@ -78,7 +53,7 @@ clear
 
 ---
 
-# What's Coming Next
+## Project Roadmap
 
 - Virtual Linux File System
 - Directory Navigation
@@ -88,24 +63,11 @@ clear
 - Command History
 - Autocomplete
 - Progress Tracking
+- Achievement System
 
 ---
 
-# Project Structure
-
-```text
-Linux-CLI-Playground/
-
-├── index.html
-├── style.css
-├── app.js
-├── commands.js
-└── assets/
-```
-
----
-
-# Technologies
+## Technologies
 
 - HTML5
 - CSS3
@@ -115,8 +77,10 @@ Linux-CLI-Playground/
 
 ---
 
-# Notes
+## Repository Status
 
-This is the initial prototype of a much larger project.
+> **Prototype v0.1**
 
-Future releases will gradually support additional Linux commands, interactive labs, and a realistic virtual Linux environment.
+This is the first public prototype of Linux CLI Playground.
+
+The current version does **not** yet include the complete Linux command set or the full Linux Labs integration. New commands and features will be added gradually in future releases as the project evolves.
