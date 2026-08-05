@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux CLI Playground</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="terminal">
+
+            <div class="terminal-header">
+
+                <div class="buttons">
+                    <span class="red"></span>
+                    <span class="yellow"></span>
+                    <span class="green"></span>
+                </div>
+
+                <div class="title">
+                    Linux CLI Playground
+                </div>
+
+            </div>
+
+            <div class="terminal-body">
+
+                <div class="welcome">
+
+                    <h1>Welcome</h1>
+
+                    <p>
+                        Practice Linux commands in an interactive terminal.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        Type <strong>help</strong> to display available commands.
+                    </p>
+
+                </div>
+
+                <div class="terminal-line">
+
+                    <span class="prompt">
+                        student@linux:~$
+                    </span>
+
+                    <input
+                        type="text"
+                        id="commandInput"
+                        placeholder="Enter a command..."
+                    >
+
+                </div>
+
+                <div id="output"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="commands.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
